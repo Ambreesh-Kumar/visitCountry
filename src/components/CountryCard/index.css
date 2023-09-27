@@ -1,0 +1,31 @@
+.flag-list {
+  margin: 10px 10px;
+}
+.country-flag {
+  height: 150px;
+}
+.remove-button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 17px;
+}
+.country-card-page-main-heading {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 15px;
+  color: #ffffffd5;
+}
+.remove-button {
+  padding: 8px 22px;
+  background-color: transparent;
+  border-width: 1px;
+  border-radius: 5px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 14px;
+  border-color: #ffffffd5;
+  color: #ffffffd5;
+  cursor: pointer;
+}

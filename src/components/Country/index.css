@@ -1,0 +1,78 @@
+.background-container {
+  background-color: #1f1f2f;
+  padding: 10px 25px;
+}
+.country-page-main-heading {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 20px;
+  color: #ffffffd5;
+}
+.table {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #ffffff60;
+  width: 100%;
+  border-radius: 10px;
+  border-bottom-width: 0px;
+  margin-bottom: 20px;
+  padding-left: 0px;
+}
+.table-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-style: solid;
+  border-bottom-width: 1px;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-color: #ffffff60;
+  padding: 10px 30px;
+}
+.visit-button {
+  padding: 10px 25px;
+  background-color: #3b82f6;
+  border-width: 0px;
+  border-radius: 5px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 15px;
+  color: #ffffffd5;
+  cursor: pointer;
+}
+.visited-paragraph {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 15px;
+  color: #ffffff7a;
+  margin-right: 14px;
+}
+.country-name {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 15px;
+  color: #ffffffd5;
+}
+.unordered-country-detail-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.no-country-visited-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.no-country-visited-heading {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 17px;
+  color: #ffffffd5;
+}
